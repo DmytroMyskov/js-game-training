@@ -1,0 +1,25 @@
+ul {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  width: 400px;
+  height: 400px;
+  gap: 10px;
+  margin: 0 auto;
+  list-style: none;
+  padding: 0;
+  border: 10px solid #bbada0;
+  border-radius: 5px;
+  background-color: #bbada0;
+}
+
+li {
+  background-color: #ccc0b3;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  font-weight: bold;
+  color: #776e65;
+}
