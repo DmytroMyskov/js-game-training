@@ -1,4 +1,5 @@
-board.children[2].innerHTML = 2
-board.children[6].innerHTML = 2
-board.children[11].innerHTML = 2
-board.children[12].innerHTML = 2
+const indices = [2, 6, 11, 12];
+
+for (const i of indices) {
+  board.children[i].innerText = 2;
+}
